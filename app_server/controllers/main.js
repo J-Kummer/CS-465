@@ -1,9 +1,9 @@
 /*get hompage*/
 
-const travel = (req, res) => {
+const index = (req, res) => {
     res.render('index', { title:'Travlr Getaways'});
     };
 
     module.exports = {
-        travel
+        index
     };
